@@ -46,7 +46,7 @@ const Navbar = () => {
             <div className="sm:hidden lg:block flex justify-center items-center gap-2 text-2xl">
               <ul className="hidden sm:flex gap-4">
                 <li>
-                  <Link to='/hero' className={`inline-block py-4 px-4 hover:text-blue-400`}>
+                  <Link to='/' className={`inline-block py-4 px-4 hover:text-blue-400`}>
                     HOME
                   </Link>
                 </li>
@@ -99,7 +99,7 @@ const Navbar = () => {
         <div className="bg-black text-white w-64 h-full shadow-lg p-5 fixed right-0 top-0 mt-16 flex flex-col">
           <ul className="flex flex-col gap-4 text-2xl">
             <li>
-              <Link to='/hero' className={`hover:text-blue-400`}>
+              <Link to='/' className={`hover:text-blue-400`}>
                 HOME
               </Link>
             </li>
