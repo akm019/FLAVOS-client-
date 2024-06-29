@@ -1,0 +1,40 @@
+{
+  "hash": "8b6316b4",
+  "configHash": "60783513",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "a8e653b6",
+  "optimized": {
+    "@mapbox/search-js-react": {
+      "src": "../../node_modules/@mapbox/search-js-react/dist/index-esm.js",
+      "file": "@mapbox_search-js-react.js",
+      "fileHash": "fae44abe",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "2ca366b0",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "454b83db",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "b77f28c5",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-UWZXFKA6": {
+      "file": "chunk-UWZXFKA6.js"
+    },
+    "chunk-UPDK7Z2H": {
+      "file": "chunk-UPDK7Z2H.js"
+    }
+  }
+}

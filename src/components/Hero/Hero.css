@@ -1,0 +1,22 @@
+/* Hero.css */
+.body{
+    
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+      
+}
+@keyframes float {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, -10px); /* Adjust the floating distance here */
+    }
+  }
+  
+  .animate-float {
+    animation: float 2.5s ease-in-out infinite; /* Adjust the animation duration here */
+  }
+  
