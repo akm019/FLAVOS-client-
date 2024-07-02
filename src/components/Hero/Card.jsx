@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Card = ({ title, types, image,cuisine }) => {
   return (
 
-      <article className="w-[250px] transition-all duration-150 ease-in-out rounded-[10px] p-[5px] border-[4px] border-transparent cursor-pointer border-white hover:shadow-[10px_10px_0_orange,20px_20px_0_orange] hover:border-orange-500 hover:transform hover:-translate-x-[20px] hover:-translate-y-[20px] active:shadow-none active:transform active:translate-x-0 active:translate-y-0">
+      <article className="w-[200px] lg:w-[250px] transition-all duration-150 ease-in-out rounded-[10px] p-[5px] border-[4px] border-transparent cursor-pointer border-white hover:shadow-[10px_10px_0_orange,20px_20px_0_orange] hover:border-orange-500 hover:transform hover:-translate-x-[20px] hover:-translate-y-[20px] active:shadow-none active:transform active:translate-x-0 active:translate-y-0">
       <div
         className="rounded-[10px] bg-cover bg-center w-full h-[150px]"
         

@@ -5,7 +5,7 @@ import { SearchBox } from "@mapbox/search-js-react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-const accessToken = "your-access-token-here";
+const accessToken = "pk.eyJ1IjoiYWF5dXNoa20iLCJhIjoiY2x4ZThndHVuMGF4MDJrc2hydjZvMXdsZSJ9.boDYvMd9Z9ljH0slTAuANQ";
 
 const MapWithGeocoder = ({ onAddressSelect }) => {
   const mapContainerRef = useRef();

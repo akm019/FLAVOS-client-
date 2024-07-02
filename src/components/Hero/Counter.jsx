@@ -8,7 +8,7 @@ const Counter = () => {
   const { ref: ordersRef, inView: ordersInView } = useInView({ triggerOnce: true });
 
   return (
-    <div className="flex justify-around gap-28 text-white p-10 bg-black">
+    <div className="md:flex justify-around gap-28 text-white p-10 bg-black">
       <div className="text-center">
         <h2 className="sm:text-4xl  font-bold ">Registered Users</h2>
         <div ref={usersRef}>

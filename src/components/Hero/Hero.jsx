@@ -27,13 +27,13 @@ const Hero = () => {
 
   return (
     <div className='bg-black min-h-screen '>
-      <div className='sm:w-[40%] lg:w-[30%] float-right'>
+      <div className='w-[50%] mt-[20%] sm:mt-[2%] lg:mt-[2%] sm:w-[40%] lg:w-[30%] float-right'>
         <img src={dp} alt="Delicious Food" className="w-full mt-10 sm:w-auto sm:h-auto lg:w-full lg:h-full animate-float" />
       </div>
-      <div className='body sm:text-5xl lg:text-7xl ml-10 py-10 font-bold text-white'>
+      <div className='body text-3xl sm:text-5xl lg:text-7xl ml-10 py-10 font-bold text-white'>
         Satisfy Your Cravings with Ease: Where <span className='text-red-500'>Taste</span> Meets <span className='text-red-500'>Convenience</span>!
       </div>
-      <div className='body sm:text-xl lg:text-2xl ml-10 mt-4 text-white font-bold'>
+      <div className='body sm:text-xl lg:text-2xl ml-10 mt-4 text-white sm:font-bold'>
         "Welcome to <span className='text-red-400 font-bold'>FLAVOS</span>, where delicious meets convenience. Explore a diverse menu of fresh, flavorful dishes delivered straight to your doorstep. Order now and enjoy restaurant-quality meals from the comfort of your home."
       </div>
       <button
@@ -42,22 +42,22 @@ const Hero = () => {
  GET STARTED
 </button>
       <div className='flex flex-col justify-center items-center mt-[10rem]'>
-        <div className='border-b-4 border-red-400 text-white sm:text-4xl lg:text-6xl font-bold inline-block'>
+        <div className='border-b-4 border-red-400 text-white text-4xl sm:text-4xl lg:text-6xl font-bold inline-block'>
           EXPLORE OUR <span className='text-red-500'>MENU</span>
         </div>
       </div>
-      <div className='flex flex-col justify-center items-center text-2xl font-light mt-10 text-white'>
+      <div className='flex flex-col  justify-center items-center text-2xl font-bold ml-10 mt-10 text-white'>
         Flavos offers different cuisines and varieties of options for your cravings...
       </div>
       <div className='ml-10 w-[90%] grid lg:grid-cols-2  w-50'>
         <div className='grid grid-rows-2'>
-        <Lottie className='lg:w-[60%] sm:w-[50%] sm:ml-32 mb-10' animationData={ani}></Lottie>
-      <div className='text-white ml-10 font-extralight text-2xl'>
+        <Lottie className='lg:w-[60%] sm:w-[50%] w-[80%] sm:ml-32 mb-10' animationData={ani}></Lottie>
+      <div className='text-white ml-10 font-extralight sm:text-2xl'>
 Welcome to FLAVOS, your ultimate destination for a diverse culinary experience! Our menu features a tantalizing array of cuisines including Indian, Chinese, Italian, and Continental, each crafted with fresh, high-quality ingredients. Whether you're craving spicy curries, savory noodles, delicious pastas, or gourmet salads, we have something to satisfy every palate. Our chefs bring authentic flavors right to your doorstep, ensuring a restaurant-quality meal in the comfort of your home.
 
 Ready to explore? Click on the menu for a detailed look and place your order now!</div>
 <Link to='/cuisine'><button
-  class=" text-xl font-bold ml-40 relative py-4 px-12 w-[50%] rounded-md bg-white isolation-auto z-10 border-2 border-red-700 before:absolute before:w-[50%] before:transition-all before:duration-700 before:hover:w-full hover:text-white before:-right-full before:hover:right-0 before:rounded-full before:bg-[#A12347] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 inline-flex items-center justify-center  text-black bg-white border border-gray-200 rounded-lg shadow-sm gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
+  class=" text-xl font-bold ml-20 sm:ml-40 relative py-4 px-12 w-[50%] rounded-md bg-white isolation-auto z-10 border-2 border-red-700 before:absolute before:w-[50%] before:transition-all before:duration-700 before:hover:w-full hover:text-white before:-right-full before:hover:right-0 before:rounded-full before:bg-[#A12347] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 inline-flex items-center justify-center  text-black bg-white border border-gray-200 rounded-lg shadow-sm gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
 >
  EXPLORE THE MENU
 </button></Link>
@@ -74,7 +74,7 @@ Ready to explore? Click on the menu for a detailed look and place your order now
       
       </div>
       <div className=' flex flex-col items-center mt-[20%] lg:ml-24 p-4'>
-      <div className='border-b-4 border-red-400 text-white sm:text-4xl lg:text-6xl font-bold inline-block'>
+      <div className='border-b-4 border-red-400 text-white text-3xl sm:text-4xl lg:text-6xl font-bold inline-block'>
           EXPLORE OUR <span className='text-red-500'>RECIPE SECTION</span>
         </div>
         

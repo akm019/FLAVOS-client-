@@ -5,6 +5,7 @@ import Hero2 from './components/Hero/Hero2.jsx'
 import { Outlet } from 'react-router-dom';
 import Cuisine from './components/Cuisine/Cuisine.jsx'
 import Footer from './components/Hero/Footer.jsx';
+import ProfileForm from './components/Entry/ProfileForm.jsx';
 
 
 const App = ()=> {
@@ -14,7 +15,7 @@ const App = ()=> {
      <div className=''>
      <Outlet/>
      </div>
-    
+    {/* <ProfileForm/> */}
    
     </div>
   )

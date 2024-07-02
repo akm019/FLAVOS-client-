@@ -21,7 +21,7 @@ const Login = ({ toggleAuth }) => {
             if (response.data.status) {
                 const user = response.data.user;
                 dispatch(setUser(user)); // Store user data in Redux
-                navigate('/hero'); // Redirect on successful login
+                navigate('/'); // Redirect on successful login
                 alert("User logged in successfully!");
             } else {
                 alert(response.data.message);

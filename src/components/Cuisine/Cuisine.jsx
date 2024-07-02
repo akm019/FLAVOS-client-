@@ -9,6 +9,14 @@ import MARG from '../../assets/MARG.jpg';
 import MAC from '../../assets/MAC.jpg';
 import WSP from '../../assets/WSP.jpg';
 import RSP from '../../assets/RSP.jpg';
+import CC from '../../assets/C&C.jpg';
+import CKR from '../../assets/CCR.jpg';
+import ChS from '../../assets/ChS.jpg';
+import CS from '../../assets/CS.jpg'
+import SJP from '../../assets/SJP.jpg'
+import PNC from '../../assets/PNC.jpg'
+
+
 import { addToCart } from '../Store/CartSlice';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -23,18 +31,18 @@ const Indian = [
 
 const Italian = [
   { id: 6, name: "Margherita Pizza", Price: 300, image: MARG },
-  { id: 7, name: "Cheese and Corn Pizza", Price: 300, image: MARG },
+  { id: 7, name: "Cheese and Corn Pizza", Price: 300, image: CC },
   { id: 8, name: "Mac and Cheese", Price: 300, image: MAC },
   { id: 9, name: "White Sauce Pasta", Price: 300, image: WSP },
   { id: 10, name: "Red Sauce Pasta", Price: 300, image: RSP }
 ];
 
 const Continental = [
-  { id: 11, name: "Crispy Calamari Rings", Price: 300 },
-  { id: 12, name: "Stuffed Jacket Potatoes", Price: 300 },
-  { id: 13, name: "Pancakes", Price: 300 },
-  { id: 14, name: "Chicken Sandwich", Price: 300 },
-  { id: 15, name: "Caesar Salad", Price: 300 }
+  { id: 11, name: "Crispy Calamari Rings", Price: 300,image:CKR },
+  { id: 12, name: "Stuffed Jacket Potatoes", Price: 300,image:SJP },
+  { id: 13, name: "Pancakes", Price: 300,image:PNC },
+  { id: 14, name: "Chicken Sandwich", Price: 300,image:ChS },
+  { id: 15, name: "Caesar Salad", Price: 300,image:CS }
 ];
 
 const Chinese = [
@@ -70,15 +78,15 @@ const Cuisine = () => {
   };
 
   return (
-    <div className="flex">
-      <div className="fixed top-0 left-0 w-60 h-screen bg-black text-white text-4xl font-thin">
-        <div className="pt-20 flex flex-col gap-8 z-20">
+    <div className="flex bg-black">
+      <div className="fixed top-0  text-[20px] lg:text-4xl left-0 w-20 lg:w-60 h-screen bg-black text-white text-4xl font-thin">
+        <div className="pt-20 flex flex-col ml-4 gap-8 z-20">
           <button className="hover:text-cyan-500" onClick={() => setSelectedCuisine('Indian')}>Indian</button>
           <button className="hover:text-cyan-500" onClick={() => setSelectedCuisine('Italian')}>Italian</button>
           <button className="hover:text-cyan-500" onClick={() => setSelectedCuisine('Continental')}>Continental</button>
           <button className="hover:text-cyan-500" onClick={() => setSelectedCuisine('Chinese')}>Chinese</button>
         </div>
-        <Link to='/cart'><button className="mt-52 ml-10 border w-40 h-20 hover:text-cyan-500">CART({cartItems.length})</button>
+        <Link to='/cart'><button className="mt-10 ml-2  lg:ml-10 border w-20 h-10 lg:w-40 lg:h-20 hover:text-cyan-500">CART({cartItems.length})</button>
       </Link></div>
       <div className="ml-60 p-8 h-screen overflow-y-auto flex flex-wrap bg-black">
         {getCuisineItems().map(item => (
