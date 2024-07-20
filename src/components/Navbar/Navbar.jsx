@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="bg-black text-white duration-200 z-30 sm:py-4 lg:py-0">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center font-bold">
-            <div className='hidden md:block lg:block'>
+            <div className='hidden md:block lg:block '>
               <Link to='/' className={`flex items-center gap-2 text-2xl sm:text-3xl font-bold`}>
                 <img src={Logo} alt="logo" className="w-10" />
                 FLAVOS
